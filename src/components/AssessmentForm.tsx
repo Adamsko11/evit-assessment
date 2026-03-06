@@ -1,4 +1,4 @@
-'use client';
+h'use client';
 
 import { useState } from 'react';
 import { formSections, FormField } from '@/lib/formConfig';
@@ -7,7 +7,7 @@ export default function AssessmentForm() {
   const [currentStep, setCurrentStep] = useState(0);
   const [formData, setFormData] = useState<Record<string, string | string[]>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);h
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const currentSection = formSections[currentStep];
@@ -113,8 +113,8 @@ export default function AssessmentForm() {
         <div className="mt-8 p-4 bg-blue-50 rounded-lg inline-block">
           <p className="text-blue-800 text-sm font-medium">
             Want to schedule a call right away?{' '}
-            <a href="https://calendly.com" className="underline font-bold hover:text-blue-900" target="_blank" rel="noopener noreferrer">
-              Book on Calendly
+            <a href="https://meetings-na2.hubspot.com/adam-skoneczny" className="underline font-bold hover:text-blue-900" target="_blank" rel="noopener noreferrer">
+              Book a Meeting
             </a>
           </p>
         </div>
