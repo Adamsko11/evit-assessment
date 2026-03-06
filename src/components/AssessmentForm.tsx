@@ -1,4 +1,4 @@
-h'use client';
+'use client';
 
 import { useState } from 'react';
 import { formSections, FormField } from '@/lib/formConfig';
@@ -7,7 +7,7 @@ export default function AssessmentForm() {
   const [currentStep, setCurrentStep] = useState(0);
   const [formData, setFormData] = useState<Record<string, string | string[]>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [isSubmitting, setIsSubmitting] = useState(false);h
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const currentSection = formSections[currentStep];
