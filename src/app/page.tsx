@@ -38,7 +38,7 @@ export default function Home() {
           </p>
           <p className="text-gray-500 max-w-2xl mx-auto">
             This assessment identifies strengths, gaps, and priority areas where EVIT Organization
-            can help your team be well-prepared for sustainable business expansion into EU &amp; US markets.
+            can help your team be well-prepared for sustainable business expansion into EU &amp; US and APAC markets.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function Home() {
       <footer className="bg-white border-t border-gray-100 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-sm text-gray-500">
           <p>&copy; 2025 EVIT Organization. All rights reserved.</p>
-          <p className="mt-1">Helping Asian IT companies break into EU &amp; US markets.</p>
+          <p className="mt-1">Helping Asian IT companies break into EU &amp; US and APAC markets.</p>
         </div>
       </footer>
     </main>
